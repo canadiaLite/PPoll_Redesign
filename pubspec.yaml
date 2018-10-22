@@ -25,9 +25,12 @@ dependencies:
   image_picker:
   mime:
   photo_view:
+  connectivity:
   timeago:
+  flutter_secure_storage:
   flutter_launcher_icons:
   flutter_staggered_grid_view:
+  permission_handler:
   dynamic_theme:
       git:
         url: git://github.com/Norbert515/dynamic_theme.git
@@ -49,6 +52,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Futura
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
   assets:
     - icon/platypus.png
     - icon/platypus2.png
